@@ -12,8 +12,8 @@
 
 body{
     background: var(--azul);
-    font-family: "Times 'Times New Roman", Times, serif;
-    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 header .container{
     display: flex;
@@ -25,7 +25,7 @@ header .logoA{
     margin-left: 10px;
     color: var(--laranja);
     font-family: "Arial Black", Times;
-    font-size: 40px;
+    font-size: 30px;
 }
 header nav a{
     text-decoration: none;
@@ -36,11 +36,14 @@ header nav a:hover{
     color: #FFF;
 }
 
-/* Filme Principal*/
+/* Lenstrip */
 
-.filme-principal{
-    font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Capa.png");
+main .container{
+    boarder: 1px solid black;
+}
+.Lenstrip{
+    font-size: 20px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) url('/img/capa.jpeg');
     height: 800px;
     background-size:cover;
 
@@ -50,11 +53,11 @@ header nav a:hover{
     align-items:flex-start;
 }
 
-.filme-principal .descricao{
+.Lenstrip .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
-.filmeprincipal .titulo{
+.Lenstrip .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -81,7 +84,7 @@ header nav a:hover{
 .container{
     margin-left: 20px;
 }
-.filme-principal .container{
+.Lenstrip .container{
     width: 70%;
 }
 .box-filme{
