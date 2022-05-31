@@ -78,7 +78,7 @@ header nav a:hover{
     transition: .5s ease all;
 }
 
-.botao: :hover{
+.botao:hover{
     background-color: white;
     color: black;
 }
@@ -96,12 +96,24 @@ header nav a:hover{
 }
 
 .fotos-lens{
-    height: 100%;
+    max-width: 300px;
+    height: 200px;
     width: 100%;
     display: block;
     cursor: pointer;
 }
 
 .carrosel-fotos{
+    width: 100%;
     margin-top:5px;
+}
+
+footer {
+	text-align: center;
+	background: url('/img/fundo.jpeg');
+	padding: 40px 0;
+}
+
+.Logo{
+    width:150px;
 }
